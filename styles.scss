@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: aqua;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button_hello {
+    margin-top: 32px;
+    background-color: pink;
+    border-radius: 8px;
+    border-color: grey;
+    height: 75px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+h1{
+    font-family: 'Bitter';
+    size: 18px;
+    color: black;
+}
